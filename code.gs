@@ -1,7 +1,7 @@
-var spreadsheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1Xno4BBooQzLJjcDEy6rptW_weGnz3rh6IzP_CVcvlBg/edit?usp=sharing"); // Replace with your spreadsheet URL
+var spreadsheet = SpreadsheetApp.openByUrl(""); // Replace with your spreadsheet URL
 var sheet = spreadsheet.getSheetByName("Sheet1");
 
-var folder = DriveApp.getFolderById("1rfgUvi88_ueBAh_ThXMagGquGsMN591J");
+var folder = DriveApp.getFolderById("");
 
 function doPost(e) {
   // Get the file data
